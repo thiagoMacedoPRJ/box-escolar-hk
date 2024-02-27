@@ -78,8 +78,6 @@ kiwisolver
 ldap3
 Markdown
 MarkupSafe
-matplotlib
-mediapipe
 mypy-extensions
 mysql-connector-python
 networkx
