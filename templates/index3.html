@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Css Main Files -->
+    <link rel="stylesheet" href="../static/css/home.css">
+
+    <title>QR Code Scanner</title>
+</head>
+<body>
+  
+ 
+  <div id="show_all" class="show_all" style="display: none"> 
+    <h1 class="notf"> AGUARDE VOCÊ SERÁ REDIRECIONADO EM 5s  </h1>
+    <h2 id="user" class="user"> SEU ÚSUARIO É:  </h2>
+    <h4 id="senha" class="senha"> SUA SENHA É: </h4>
+    <h3 class="notf2"> MOVESEC_V1 Info: </h3>
+    <h3 class="notf1"> GUARDE SEU ÚSUARIO E SENHA COM CUIDADO!! </11>
+  </div>
+
+
+    <div id="container" class="container" style="display: block">
+        <div class="row">
+          <div id="reader"></div>
+        </div>
+
+        <div class="row" style="padding:30px;">
+          <h4>Status do escanner :</h4>
+          <div id="result">status nada para mostrar...</div>
+        </div>
+    </div>
+    
+    
+    <!-- Js Lib Files -->
+    <script src="../static/js/qrcode.min.js"></script>
+
+    <!-- Js Main Files -->
+    <script src="../static/js/home.js"></script>
+
+</body>
+</html>
